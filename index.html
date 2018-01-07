@@ -1,0 +1,201 @@
+<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Template Website Software</title>
+    <link  href="assets/css/metro-icons.css" rel="stylesheet">
+    <link  href="assets/css/metro-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/jquery.onepage-scroll/onepage-scroll.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/Righteous.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/Voltaire.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/mediaquery.css">
+    <link href="assets/images/logo_ss.png" rel="shortcut icon" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul id="menu-utama">
+          <div class="logo">
+              <li><a href=""><strong>Software</strong>Store</a>     </li>
+              <li><a href="#page-one" id="link_home">Home</a></li>
+              <li><a href="#page-two" id="link_product">Product</a></li>
+              <li><a href="#page-three" id="link_about">About</a></li>
+              <li><a href="#page-four" id="link_contact">Contact</a></li>
+          </div>
+          </ul>
+        </nav>
+    </header>
+    <div class="main">
+      <section class="page one" id="page-one">
+        <div class="page-container">
+          <!-- isi kontener disini -->
+          <div id="daftar-artikel">
+                <div class="artikel">
+                  <h3 text-align="center">SoftwareStore</h3></br>
+                  <img src="images/logo_ss.png" alt="">
+                  <form class="artikel1" action="index.html" method="post">
+                    <p>Web yang dikhususkan menjual software yang dikhususkan
+                      untuk software personal computer. software yang dijual
+                      dijamin keasliannya.
+                      </p>
+                  </form>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="page tow" id="page-two">
+        <div class="page-container">
+          <!-- isi kontener disini -->
+          <div id="daftar-artikel">
+                <div class="artikel">
+                  <h3 text-align="center">Windows 10 dan office 2016</h3></br>
+                  <img src="images/win10.png" alt="">
+                  <form class="artikel1" action="index.html" method="post">
+                    <p>Microsoft Windows 10 Professional 64-bit Software
+                      merupakan software yang memiliki fitur cukup menarik,
+                      dimulai dari performa booting cukup cepat hingga proses
+                      selama pemakaiannya yang lebih smooth membuat Anda lebih
+                      betah menggunakan PC. Kembalinya fitur start menu di
+                      Windows 10 dan memiliki kemampuan Multiple Desktop.
+                      </p>
+                  </form>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="page three" id="page-three">
+        <div class="page-container">
+          <!-- isi kontener disini -->
+          <div id="daftar-artikel">
+                <div class="artikel">
+                  <h3 text-align="center">About Us Software Store</h3></br>
+                  <form class="artikel1" action="index.html" method="post">
+                    <p>Software store merupakan sebuah toko online yang bergerak
+                      dibidang penjualan software yang sudah dijamn keaslian
+                      produk. mulai dari software Operating system, Games, Design
+                      dan masih banyak lagi.
+                      </p>
+                  </form>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="page four" id="page-four">
+        <div class="page-container">
+          <!-- isi kontener disini -->
+          <div id="content">
+            <div>
+              <div class="first">
+                <h2>Contact Us</h2>
+                <ul>
+                  <li>
+                    <form>
+                      <table>
+                        <tr><td>Nama Konsumen</td></tr>
+                        <tr>
+                          <td><input type="text" name="konsumen" placeholder="nama konsumen"></td>
+                        </tr>
+                        <tr><td>Komentar</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <textarea name="komenta" rows="8" cols="80">komentar</textarea>
+                          </td>
+                        </tr>
+                        <tr><td>Email</td>
+                        </tr>
+                        <tr>
+                          <td><input type="text" name="konsumen" placeholder="Email"></td>
+                        </tr>
+                        <tr>
+                          <td><input type="button" name="kirim" value="kirim"></td>
+                        </tr>
+                      </table>
+                    </form>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h2>Contact ME</h2>
+                <ul>
+                  <li>
+                    <form>
+                      <table>
+                        <tr>
+                          <td><strong>Address</strong></td>
+                        </tr>
+                        <tr>
+                          <td>JL. MELATI NO. 35, SLEMAN, YOGYAKARTA</td>
+                        </tr>
+                        <tr>
+                          <td><strong>Phone</strong></td>
+                        </tr>
+                        <tr>
+                          <td>+628082310842</td>
+                        </tr>
+                        <tr>
+                          <td><strong>Email</strong></td>
+                        </tr>
+                        <tr>
+                          <td>Softwarestore@gmail.com</td>
+                        </tr>
+                      </table>
+                    </form>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script type="text/javascript" src="assets/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="assets/metro.js"></script>
+    <script type="text/javascript" src="assets/jquery.onepage-scroll/jquery.onepage-scroll.js"></script>
+    <script type="text/javascript">
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        easing: "cubic-bezier(0.180, 0.900, 0.410, 1.210)"
+      });
+    </script>
+
+    <!-- Custom JS -->
+    <!-- <script>
+      $(document).ready(function(){
+        $("#link_home").click(function(){
+          $("#page-one").show();
+          $("#page-two").hide();
+          $("#page-three").hide();
+          $("#page-four").hide();
+        });
+      });
+      $(document).ready(function(){
+          $("#link_product").click(function(){
+            $("#page-two").show();
+            $("#page-one").hide();
+            $("#page-three").hide();
+            $("#page-four").hide();
+          });
+        });
+      $(document).ready(function(){
+          $("#link_about").click(function(){
+            $("#page-three").show();
+            $("#page-two").hide();
+            $("#page-one").hide();
+            $("#page-four").hide();
+          });
+        });
+      $(document).ready(function(){
+          $("#link_contact").click(function(){
+            $("#page-four").show();
+            $("#page-two").hide();
+            $("#page-three").hide();
+            $("#page-one").hide();
+          });
+        });
+    </script> -->
+
+  </body>
+</html>
